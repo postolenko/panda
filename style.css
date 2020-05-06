@@ -1021,6 +1021,12 @@ footer {
     padding: 1px 0;
 }
 
+.footer_section {
+    background-image: url(img/footer_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .footer_row {
     display: flex;
     display: -webkit-flex;
