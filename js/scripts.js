@@ -1,4 +1,22 @@
+function getAnimation() {
+  $(".animate").each(function() {
+    if( $(this).offset().top <= $(document).scrollTop() + $(window).height()) {
+      $(this).addClass("active");
+    }
+  });
+}
+
+$(window).resize(function() {
+  getAnimation();
+});
+
+$(document).scroll(function() {
+  getAnimation();
+});
+
 $(document).ready(function() {
+
+    getAnimation();
 
     $(".active_val").on("click", function(e) {
         e.preventDefault();
