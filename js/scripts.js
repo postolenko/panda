@@ -1,31 +1,4 @@
-var w = window,
-d = document,
-e = d.documentElement,
-g = d.getElementsByTagName('body')[0],
-bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
-
-
-$(window).load(function() {
-
-
-
-});
-
-$(window).resize(function() {
-
-
-
-});
-
-$(document).scroll(function() {
-
-
-
-});
-
 $(document).ready(function() {
-
-    // ---------------
 
     $(".active_val").on("click", function(e) {
         e.preventDefault();
@@ -60,7 +33,5 @@ $(document).ready(function() {
             $(".dropdown_select").removeClass("active");
         }
     });
-
-    // -----------------------
 
 });
