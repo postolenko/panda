@@ -296,6 +296,11 @@ textarea:focus {
     padding: 0;
 }
 
+section > .row {
+    position: relative;
+    z-index: 2;
+}
+
 .overflow_wrapp {
     overflow: hidden;
 }
