@@ -779,6 +779,7 @@ section:after {
 }
 
 .thumb_1 {
+    display: block;
     width: 33.33%;
     padding: 25px;
 }
