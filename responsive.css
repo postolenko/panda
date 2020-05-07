@@ -169,6 +169,11 @@ h1 {
     text-align: center;
 }
 
+.corp p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
 .soc_links_2 {
     justify-content: center !important;
     -webkit-justify-content: center !important;
@@ -297,7 +302,12 @@ h2 {
 
 @media only screen and (max-width: 767px) {
 
-.header {
+.wrapper {
+    padding-top: 50px;
+}
+
+#header {
+    background-color: #000;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -345,7 +355,7 @@ h2 {
 /*-- Header --*/
 
 .soc_links li {
-    padding: 5px 3%;
+    padding: 5px 10px;
     line-height: 10px;
 }
 
@@ -412,6 +422,14 @@ h1 {
 	display: none;
 }
 
+/*-- Header --*/
+
+.soc_links li {
+    padding: 5px 5px;
+}
+
+/*-- /Header --*/
+
 /*-- Section 1 --*/
 
 h1 {
@@ -468,6 +486,14 @@ h1 {
 }
 
 /*-- /Section 4 --*/
+
+/*-- Footer --*/
+
+.soc_links_2 li {
+    padding: 5px 13px;
+}
+
+/*-- /Footer --*/
 
 }
 
@@ -529,14 +555,48 @@ p {
     width: 150px;
 }
 
+.dropdown_box {
+    padding: 0 5px;
+}
+
 /*-- /Header --*/
 	
+}
+
+@media only screen and (max-width: 450px) {
+
+/*-- Section 1 --*/
+
+.buttons_wrapp {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.buttons_wrapp > div {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.bridge_pill {
+    min-width: 196px;
+    padding: 12px 10px 17px 10px;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+/*-- /Section 1 --*/
+
 }
 
 
 @media only screen and (max-width: 400px) {
 
 /*-- Header --*/
+
+.dropdown_select .dropdown_box {
+    margin-top: -44px;
+}
 
 .soc_links li a {
     width: 23px;
@@ -559,24 +619,6 @@ p {
 h1 {
     font-size: 33px;
     line-height: 51px;
-}
-
-.buttons_wrapp {
-    justify-content: center;
-    -webkit-justify-content: center;
-}
-
-.buttons_wrapp > div {
-	width: 100%;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.bridge_pill {
-    min-width: 196px;
-    padding: 12px 10px 17px 10px;
-    font-size: 15px;
-    line-height: 29px;
 }
 
 /*-- /Section 1 --*/
